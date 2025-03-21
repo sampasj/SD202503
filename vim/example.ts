@@ -1,4 +1,4 @@
-function processorder (order: Order) {
+function processOrder (order: Order) {
     validateOrder (order);
     const quantity = order.quantity;
     if (!isValidQuantity(quantity)) {
